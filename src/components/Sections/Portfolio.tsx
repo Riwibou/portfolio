@@ -5,8 +5,8 @@ import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 're
 
 import {isMobile} from '../../config';
 import {SectionId} from '../../data/data';
-import {portfolioItems} from '../../data/portfolioItems';
 import {PortfolioItem} from '../../data/dataDef';
+import {portfolioItems} from '../../data/portfolioItems';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
