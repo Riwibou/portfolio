@@ -4,7 +4,8 @@ import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
 
 import {isMobile} from '../../config';
-import {portfolioItems, SectionId} from '../../data/data';
+import {SectionId} from '../../data/data';
+import {portfolioItems} from '../../data/portfolioItems';
 import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';

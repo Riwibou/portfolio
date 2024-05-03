@@ -1,5 +1,5 @@
 import {
-  AcademicCapIcon,
+  LanguageIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../../public/my-picture.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -108,15 +108,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm mostly intrested in the JavaScript eco-system, it's so rich and there is so much possibilities.
-  That's why I alsways stay up to date to this very exciting technologie. React, node.js, next, three.js ...
-  I love to solve problem and to manke an idea a reality. `,
+  description: `I'm an IT Project Manager who felt in love with programming.
+  I'm passionate about JavaScript's endless possibilities.
+  From React to Node.js and other technologies like Next, Express, Vue, Three,...
+  I stay ahead of the curve. Solving problems and bringing ideas to life is what drives me.
+  I'm ready to make an impact with my skills and passion. `,
   aboutItems: [
     {label: 'Location', text: 'Paris, France', Icon: MapIcon},
     {label: 'Age', text: '33', Icon: CalendarIcon},
     {label: 'Nationality', text: 'French', Icon: FlagIcon},
     {label: 'Interests', text: 'Piano, Chess, Foreign Languages', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Languages', text: 'French, English, Spanish, Portugese, Russian, Italian, Mandarin Chinese', Icon: LanguageIcon},
     {label: 'Employment', text: 'Free-lance', Icon: BuildingOffice2Icon},
   ],
 };
@@ -129,16 +131,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'French',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'English',
+        level: 9,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 7,
       },
     ],
   },
@@ -151,11 +153,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 5,
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 4,
       },
     ],
   },
@@ -167,12 +169,12 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Ruby / Python',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'SQLite / MySQL / MongoDB / jQuery',
+        level: 6,
       },
     ],
   },
@@ -181,7 +183,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 6,
       },
       {
         name: 'Flutter',
@@ -211,60 +213,60 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
+  // {
+  //   title: 'Project title 3',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage3,
+  // },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage7,
+  // },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage8,
   },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -272,39 +274,87 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'From February to April 2024',
+    location: 'Le Réacteur - Paris, France',
+    title: 'React - React Native - Node.js',
+    content: <p>Developing scalable web applications and mobile solutions. Expertise in
+    frontend and backend technologies, ensuring high-quality code and seamless user experiences.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'From October to December 2022',
+    location: 'Le Wagon - Paris, France',
+    title: 'Ruby - Node.js - React',
+    content: <p>Gained expertise in web development encompassing both backend and frontend technologies, along with database management.
+      Completed projects designed to simulate real-world market demands.</p>,
+  },
+  {
+    date: 'From 2006 to 2010',
+    location: 'Conservatoire National Supérieur de Musique et de Danse de Paris - Paris, France',
+    title: 'Movie Music Composition',
+    content: <p>Studied classical composition, movie music, jazz, and contemporary music with a focus on piano.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Since January 2023',
+    location: 'Paris - France ',
+    title: 'Full-Stack Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Design and deployment of custom web solutions to satisfy client requirements. End-to-end
+        project management, from gathering requirements to delivery, ensuring an optimal user
+        experience and technical performance aligned with project demands. Provision of updates,
+        technical support, modifications, and post-delivery maintenance to ensure project
+        sustainability.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'From March 2020 to September 2022',
+    location: 'at Parisian Spirit - Paris, France',
+    title: 'Art Director',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Management and promotion of artists, production and prospecting of event projects, search of
+        partnerships.
+      </p>
+    ),
+  },
+  {
+    date: 'From November 2018 to January 2020',
+    location: 'at Agoda - Bangkok, Thailand',
+    title: 'IT Project Manager',
+    content: (
+      <p>
+        Optimization of mobile application and website for hotel reservation (Design Thinking),
+        Monitoring and improvement of processes, Agile team building, Development of new
+        opportunities (User Tracking, SI, CRM), Improvement of costs and priorities, Respect of
+        deadlines , SCRUM methodology (LESS, KPIs)
+      </p>
+    ),
+  },
+  {
+    date: 'From December 2016 to August 2018',
+    location: 'at Ponant Luxury Cruise - Arctic, South America, Antarctica',
+    title: 'Cruise Director ',
+    content: (
+      <p>
+        In charge of the direction and coordination of the departments.Cost and quality control,
+        Entertainment, Life on board, Management (180 crew), Objectives, Reports, Customer
+        satisfaction and complaints, VIP management
+      </p>
+    ),
+  },
+  {
+    date: 'From August 2015 to October 2016',
+    location: 'at Aegis solutions - Paris, France ',
+    title: 'IT Project Manager',
+    content: (
+      <p>
+        Resource management and project planning of software for internal use (LEAN UX),
+        Coordination for project owner support needs and analysis, Planning to meet the main
+        contractor for project deadlines, Cost reduction, KANBAN methodology
       </p>
     ),
   },
@@ -317,18 +367,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Stephane Delacourt',
+      text: 'Working with him was an experience. He not only guided me through the intricacies of my project but also had innovative solutions to every challenge we faced.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Mokhtar Batrassi',
+      text: 'Riwan is creative and transformed my desire for a simple website into a captivating platform that beautifully showcases my artwork. His knack for understanding the essence of my art and translated it into the site .',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Alexei Stukoff',
+      text: 'As a colleague, Riwan have a passion for excellence. He went above and beyond to assist his peers, generously sharing his expertise and insights. A true team player and an great developer!',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -340,17 +390,17 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'I will be please to work with you or for you, let me know how can i help you.',
   items: [
     {
       type: ContactType.Email,
       text: 'riwan.b@live.fr',
-      href: 'mailto:reachout@timbaker.me',
+      href: 'mailto:riwan.b@live.fr',
     },
     {
       type: ContactType.Location,
       text: 'Paris, France',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://maps.app.goo.gl/A3XaV9biQzQSVEJv9',
     },
     {
       type: ContactType.LinkedIn,
