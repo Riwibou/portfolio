@@ -82,7 +82,7 @@ export const heroData: Hero = {
   actions: [
     {
       // doesnt work, i would like users to be able to dl my cv
-      href: './CV_2024-04-12_BOUOULI_Riwan_William.pdf',
+      href: '../assets/CV_2024-04-12_BOUOULI_Riwan_William.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
