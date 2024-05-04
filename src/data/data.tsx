@@ -12,10 +12,12 @@ import profilepic from '../../public/my-picture.png';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -79,7 +81,8 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/CV_2024-04-12_BOUOULI_Riwan_William.pdf',
+      // doesnt work, i would like users to be able to dl my cv
+      href: './CV_2024-04-12_BOUOULI_Riwan_William.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -190,54 +193,54 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
+  // {
+  //   title: 'Cloning Vinted website',
+  //   description: 'A fully operationnal Vinted clone',
+  //   url: 'https://clone-of-vinted.netlify.app/',
+  //   image: porfolioImage1,
+  // },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
-  // {
-  //   title: 'Project title 3',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage3,
-  // },
+  {
+    title: 'Project title 3',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage3,
+  },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
-  // {
-  //   title: 'Project title 5',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage6,
-  // },
-  // {
-  //   title: 'Project title 7',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage7,
-  // },
   {
-    title: 'Project title 8',
+    title: 'Project title 5',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage8,
+    image: porfolioImage5,
   },
+  {
+    title: 'Project title 6',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Project title 7',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage7,
+  },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage8,
+  // },
   // {
   //   title: 'Project title 9',
   //   description: 'Give a short description of your project here.',
