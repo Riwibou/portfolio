@@ -4,6 +4,7 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import {PortfolioItem} from './dataDef';
 
 /**
@@ -53,12 +54,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://riwan-william-bououli.netlify.app/',
     image: porfolioImage7,
   },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage8,
-  // },
+  {
+    title: 'Marvel Heroes & Comics',
+    description: 'All Heroes and Comics from the Marvel API',
+    url: 'https://marvel-universe-comics.netlify.app/',
+    image: porfolioImage8,
+  },
   // {
   //   title: 'Project title 9',
   //   description: 'Give a short description of your project here.',
