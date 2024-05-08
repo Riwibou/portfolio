@@ -12,6 +12,7 @@ import profilepic from '../../public/my-picture.png';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -73,7 +74,7 @@ export const heroData: Hero = {
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me playing <strong className="text-stone-100">Piano</strong>,
+        In my free time, you can catch me playing <strong className="text-stone-100">Piano</strong>,
         learning new <strong className="text-stone-100">languages</strong>, or exploring{' '}
         <strong className="text-stone-100">javascript libraries</strong>.
       </p>
@@ -194,12 +195,12 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-  // {
-  //   title: 'Cloning Vinted website',
-  //   description: 'A fully operationnal Vinted clone',
-  //   url: 'https://clone-of-vinted.netlify.app/',
-  //   image: porfolioImage1,
-  // },
+  {
+    title: 'Cloning Vinted website',
+    description: 'A fully operationnal Vinted clone',
+    url: 'https://clone-of-vinted.netlify.app/',
+    image: porfolioImage1,
+  },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',

@@ -1,3 +1,4 @@
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -12,12 +13,12 @@ import {PortfolioItem} from './dataDef';
  */
 
 export const portfolioItems: PortfolioItem[] = [
-  // {
-  //   title: 'Cloning Vinted website',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage1,
-  // },
+  {
+    title: 'Networthing',
+    description: 'Showcasing an App designed to optimizing your posts, enhance your social media presence, engagement, and community outreach.',
+    url: 'https://networthing.netlify.app/',
+    image: porfolioImage1,
+  },
   {
     title: 'Clone of Vinted',
     description: 'A fully operationnal Vinted clone. Back-end using Node.js and Front-end using React: Home page of offers, Login, Sign-in, Post offers and Buying page with Stripes ',
