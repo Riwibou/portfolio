@@ -363,17 +363,17 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Stephane Delacourt',
       text: 'Working with him was an experience. He not only guided me through the intricacies of my project but also had innovative solutions to every challenge we faced.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Mokhtar Batrassi',
       text: 'Riwan is creative and transformed my desire for a simple website into a captivating platform that beautifully showcases my artwork. His knack for understanding the essence of my art and translated it into the site .',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Alexei Stukoff',
       text: 'As a colleague, Riwan have a passion for excellence. He went above and beyond to assist his peers, generously sharing his expertise and insights. A true team player and an great developer!',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
