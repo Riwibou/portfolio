@@ -66,11 +66,11 @@ export const heroData: Hero = {
   name: `I'm Riwan`,
   description: (
     <>
-    <div>
+    <div className="text-center">
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Paris-based <strong className="text-stone-100">Full Stack Software Engineer
-        </strong> specializing in <strong className="text-stone-100">Node.js</strong> and <strong className="text-stone-100">React</strong>.
-        Experienced in building scalable web applications, passionate about problem-solving and helping clients turn ideas into reality.
+        </strong> specializing in <strong className="text-stone-100">Next.js</strong>, <strong className="text-stone-100">React</strong> and <strong className="text-stone-100">Node.js</strong>. <br />
+        Experienced in building scalable web applications, <br /> passionate about problem-solving and helping clients turn ideas into reality.
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
