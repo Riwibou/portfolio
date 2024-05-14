@@ -1,10 +1,12 @@
 import {FC, memo} from 'react';
 
 import {education, experience, SectionId} from '../../../data/data';
+import GraphqlIcon from '../../Icon/GraphqlIcon';
 import JsIcon from '../../Icon/JsIcon';
 import NextjsIcon from '../../Icon/NextjsIcon';
 import NodeIcon from '../../Icon/NodeIcon';
 import ReactIcon from '../../Icon/ReactIcon';
+import TailwindIcon from '../../Icon/TailwindIcon';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import TimelineItem from './TimelineItem';
@@ -25,11 +27,13 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <ResumeSection title="Technologies">
           <p className="pb-8"></p>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
             <JsIcon />
             <NextjsIcon />
             <ReactIcon />
             <NodeIcon />
+            <TailwindIcon/>
+            <GraphqlIcon/>
           </div>
         </ResumeSection>
       </div>

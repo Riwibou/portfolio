@@ -13,13 +13,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -200,67 +193,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'A fully operationnal Vinted clone',
     url: 'https://clone-of-vinted.netlify.app/',
     image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Project title 10',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Project title 11',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage11,
-  // },
+  }
 ];
 
 /**
@@ -284,7 +217,7 @@ export const education: TimelineItem[] = [
   {
     date: 'From 2006 to 2010',
     location: 'Conservatoire National Supérieur de Musique et de Danse de Paris - Paris, France',
-    title: 'Movie Music Composition',
+    title: 'Master\u0027s Degree in Movie Music Composition',
     content: <p>Studied classical composition, movie music, jazz, and contemporary music with a focus on piano.</p>,
   },
 ];
@@ -384,7 +317,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'I will be please to work with you or for you, let me know how can i help you.',
+  description: 'I will be please to work with you and/or for you, let me know how can I help you.',
   items: [
     {
       type: ContactType.Email,
