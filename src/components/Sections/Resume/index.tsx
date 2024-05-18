@@ -27,7 +27,7 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <ResumeSection title="Technologies">
           <p className="pb-8"></p>
-          <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+          <div className="flex flex-wrap justify-center gap-6 md:grid md:grid-cols-3 md:gap-10">
             <JsIcon />
             <NextjsIcon />
             <ReactIcon />
